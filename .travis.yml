@@ -5,7 +5,7 @@ services:
   - mysql
 before_script:
   - composer install
-script: .vendor/bin/phpunit ./tests
+script: ./vendor/bin/phpunit ./tests
 deploy:
   provider: heroku
   app: curso-github-cefire
