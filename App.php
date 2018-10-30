@@ -1,6 +1,7 @@
 <?php
 
-// Conexión con la base de datos
+require 'vendor/autoload.php';
+require 'database.php';
 
 class App
 {
