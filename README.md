@@ -4,17 +4,13 @@ API CRUD para interactuar con una base de datos de una biblioteca multimedia. Ut
 
 ## Setup
 
-Instalar XAMPP y copiar el repositorio a la carpeta `htdocs`
-
+## Acceso en servidor local de desarrollo
+- Instalar XAMPP y copiar el repositorio a la carpeta `htdocs`
+- Cargar en el servidor MySQL el archivo `biblioteca.sql` con la estructura de la base de datos
+- Instalar dependencias con composer
 ``` bash
-# Instalar dependencias con composer
 composer install
 ```
-
-## Acceso en servidor local de desarrollo
-- Ejecutar `php -S localhost:8000`
-- Arrancar servidor MySQL con la base de datos `biblioteca` cargada
-- Acceso: http://localhost:8000
 
 ## Acceso al servidor de producción (Heroku)
 
