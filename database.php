@@ -1,12 +1,12 @@
 <?php
 
 // Información de la base de datos
-// Ponemos variables de entorno de OpenShift por si estamos desplegando allí. Basado en https://developers.openshift.com/en/php-framework-symfony.html#_database
+// Ponemos variables de entorno de Heroku por si estamos desplegando allí.
 // En caso contrario se cargarán los valores por defecto de una instalación local de XAMPP
 // (usuario: 'root' ; password: '' )
 // con base de datos llamada 'biblioteca'
 
-// Comprobamos si estamos en OpenShift buscando una variable de entorno definida sólo allí
+// Comprobamos si estamos en Heroku con ClearDB buscando una variable de entorno definida sólo allí
 
 $os = getenv('CLEARDB_DATABASE_URL');
 if ($os) {

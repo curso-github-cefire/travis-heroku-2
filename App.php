@@ -1,7 +1,6 @@
 <?php
 
 // Conexión con la base de datos
-require 'database.php';
 
 class App
 {
